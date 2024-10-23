@@ -1,6 +1,6 @@
 # Country Finder - CTF Write-up
 
-**Challenge Name:** Country Finder
+**Challenge Name:** Country Finder <br>
 **Category:** Misc  
 
 ---
