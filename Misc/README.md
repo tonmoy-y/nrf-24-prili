@@ -46,8 +46,7 @@ Enter sorted names seprated by commas:
 
 The game consists of a varying number of random rounds. To explore whether it's possible to bypass or reduce the number of rounds, I experimented by submitting incorrect inputs. Initially, upon connecting, I encountered 29 rounds. After submitting a wrong input and reconnecting, the number of rounds dropped to 26, then 23, 22, back to 29, and eventually 21 rounds. When I saw 21 rounds, I decided it was time to solve the challenge.
 
-Manually identifying the corresponding countries from the latitude and longitude coordinates for each round is extremely time-consuming, if not nearly impossible. Therefore, I opted to automate the process to save time and effort.
-
+It takes too much time to find countries from latitude and longitude coordinates one by one
 I wrote a Python script ( with help of ai) that quickly retrieves the country names based on the latitude and longitude pairs using the OpenCage Geocoder API. The script can handle multiple rounds of the game efficiently.
 
 Here’s the Python code:
