@@ -16,7 +16,8 @@ Your task is to identify the country corresponding to each set of coordinates an
 ### Solution
 
 After connecting to the server, you will receive a list of latitude and longitude pairs, similar to the following:
-```Round 1/21
+```
+Round 1/21
 Latitude: 40.1792, Longitude: 44.4991
 Latitude: -4.6796, Longitude: 55.4919
 Latitude: -21.1789, Longitude: -175.1982
@@ -91,15 +92,19 @@ print(", ".join(country_names))
 - Sign up for an API key at <a href="https://opencagedata.com/">OpenCage Geocoder</a>.
 - Replace `YOUR_OPENCAGE_API_KEY` in the script with your actual API key.
 - Copy and paste the list of latitude and longitude coordinates you receive from the server into the `input_string` variable. <br> Example:<br
-  `Latitude: -21.1789, Longitude: -175.1982
+```
+Latitude: -21.1789, Longitude: -175.1982
 Latitude: 31.9522, Longitude: 35.9304
 Latitude: 41.3775, Longitude: 64.5853
 Latitude: 60.472, Longitude: 8.4689
 Latitude: 60.1282, Longitude: 18.6435
-Latitude: 53.9045, Longitude: 27.559`
+Latitude: 53.9045, Longitude: 27.559
+```
 - Run the script. Wait for a few seconds. It will output the country names which is the input of your round.
 - Copy the sorted list of country names and paste it back into the terminal where the challenge is running.
 - Repeat the process for each round until you complete the challenge and receive the flag.
+- 
+---
 
 ### After Finishing all round final text will be:
 `Congratulations! Here is your flag: EWU{7h1s_1s_WhY_Y0u_N33d_7o_L3aRn_sC1p71nG_5xxxxxx1}`
