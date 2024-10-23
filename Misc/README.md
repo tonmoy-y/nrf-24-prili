@@ -91,7 +91,7 @@ print(", ".join(country_names))
 `pip install opencage`
 - Sign up for an API key at <a href="https://opencagedata.com/">OpenCage Geocoder</a>.
 - Replace `YOUR_OPENCAGE_API_KEY` in the script with your actual API key.
-- Copy and paste the list of latitude and longitude coordinates you receive from the server into the `input_string` variable. <br> Example:<br
+- Copy and paste the list of latitude and longitude coordinates you receive from the server into the `input_string` variable. <br> Example:
 ```
 Latitude: -21.1789, Longitude: -175.1982
 Latitude: 31.9522, Longitude: 35.9304
