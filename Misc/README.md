@@ -13,6 +13,7 @@ You are given some latitude and longitude coordinates after connecting to a remo
 
 Your task is to identify the country corresponding to each set of coordinates and submit the sorted country names. 
 
+### Solution
 
 The game has a random number of rounds and you must repeat the process for each round.
 
@@ -46,8 +47,6 @@ Enter sorted names seprated by commas:
 
 
 The number of rounds varies randomly (e.g., 21, 26, 29 rounds). Manually finding the corresponding countries using latitude and longitude for each round is time-consuming. Thus, I automated the process using Python.
-
-### Solution
 
 I wrote a Python script ( with help of ai) that quickly retrieves the country names based on the latitude and longitude pairs using the OpenCage Geocoder API. The script can handle multiple rounds of the game efficiently.
 
@@ -106,4 +105,4 @@ Copy the sorted list of country names and paste it back into the terminal where 
 Repeat the process for each round until you complete the challenge and receive the flag.
 
 After Finishing all round final text will be:
-`   Congratulations! Here is your flag: EWU{7h1s_1s_WhY_Y0u_N33d_7o_L3aRn_sC1p71nG_5xxxxxx1}`
+`Congratulations! Here is your flag: EWU{7h1s_1s_WhY_Y0u_N33d_7o_L3aRn_sC1p71nG_5xxxxxx1}`
