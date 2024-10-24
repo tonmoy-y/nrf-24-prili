@@ -104,7 +104,11 @@ Latitude: 53.9045, Longitude: 27.559
 ```
 - Run the script. Wait for a few seconds. Output will be printed in the terminal which is the input of your round.
 - Copy the sorted list of country names and paste it back into the terminal where the challenge is running.
-- Repeat the process for each round until you complete the challenge and receive the flag.
+- Repeat the process for each round until you complete the challenge and got the flag.
+
+<b> N.B. Be careful when you copy all the  Latitude, Longitude of a round. Copy all latitudes, longitudes. 
+And everything in the output got from the script should be copied. 
+If any latitude, longitude when copying you have to start again from the beggining.  </b>
 
 ---
 
